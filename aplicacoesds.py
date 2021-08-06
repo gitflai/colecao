@@ -55,9 +55,7 @@ if pagina == 'Home':
 
 	'''
 	E para facilitar a sua navegação, você pode selecionar a área do seu interesse apenas selecionando alguma das áreas na aba a esquerda.
-	'''
-	g = dados['CATEGORIA'].value_counts().plot(kind = 'barh')
-	st.pyplot(g.figure, width = '200')
+	''' 
 
 #============================================================================================
 
