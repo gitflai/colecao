@@ -27,7 +27,7 @@ if pagina == 'Home':
 	'''
 	#  Coleção FLAI de Aplicações de Inteligência Artificial e Data Science 📘
 	'''
-	st.image('imagem1.png', use_column_width = 'always')
+	st.image('Imagem1.png', use_column_width = 'always')
 
 	'A tecnologia hoje já está presente em praticamente todos os setores existentes. Podemos dizer o mesmo para ciência de dados, e para facilitar sua busca por suas inúmeras aplicações, nós da equipe FLAI desenvolvemos esse web app para que você consiga encontrar com uma maior facilidade alguma aplicação em uma área de seu interesse.'
 	
