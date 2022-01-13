@@ -13,7 +13,7 @@ dados = pd.read_excel("Planilha - APLICAÇÕES DS.xlsx")
   
 categorias = dados['CATEGORIA'].unique() 
  
-paginas = ['Home', 'Aplicações por Área', 'Submeter Aplicação', 'Relatar um BUG', 'Sobre']
+paginas = ['Home', 'Aplicações por Área', 'Sobre']
 
 st.image('bannerflai.jpg', use_column_width = 'always')
  
@@ -93,39 +93,6 @@ if pagina == 'Aplicações por Área':
 #============================================================================================
 
  
-	 
-if pagina == 'Submeter Aplicação': 
-
-	st.title("Nos ajude com sua sugestão!")
-
-	st.write('Além destas aplicações de Inteligência Artificial, nós da FLAI sabemos que ainda existem muitas outras áreas de atuação das quais as mesmas ainda não adicionameos neste webapp.')
-
-	st.write('Sabendo disso nós deixamos uma aba especialmente para as pessoas que desejarem nos ajudar com áreas de atuação que não foram postas aqui.')
-
-	st.write('Para nos auxiliar a adicionarmos mais áreas de atuação, temos o link abaixo para sua interação (via GOOGLE FORMS)')
-
-	'''
-	### [Clique aqui para submeter uma aplicação](https://forms.gle/Z7GEwrsZTYfLqoNJ7)
-	'''
-
-	st.write("")
-
-	st.write('Agradecemos pelo seu apoio! 😉')
-
- 
-
-
-#============================================================================================
-
- 
-if pagina == 'Relatar um BUG':
-	'''
-	### Em Construção
-	'''
-
-
-#============================================================================================
-
 
 if pagina == 'Sobre':
 	'''
